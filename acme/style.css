@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-color: #c5c5da;
+    color: #191970;
+}
+header{
+    
+    width: 100%;/* Largura */
+    height: 15vh;/* ALtura */
+    text-shadow: 0 1px 3px #ffffff;
+    font-style: 1.4rem;
+    letter-spacing: 1.5px;
+    
+    /* Comportamento da caixa */
+    display: flex;
+    justify-content: center; /* Alinhamento Hozontal */
+    align-items: center;
+}
+nav{
+    padding-top: 6px;
+    padding-bottom: 8px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background:#8d9299c9;
+     
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    text-transform: 600;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px 2px #ffffff;
+    transition: .5s;
+    
+}
+nav a:hover{
+    text-shadow: -4px -3px #ffffff;
+}
+main{
+    width: 100%;
+}
+article h2{
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 0 1px 1px #ffffff;
+    font-style: 1.4rem;
+    color: #131357;
+    background-color: #00455a69;
+    
+}
+article p{
+    padding-left: 180px;
+
+}
+ul{
+    padding-top: 4px;
+    padding-left: 37%;
+}
+li{
+    font-style: italic;
+}
+
+footer{
+    border-top: 2px solid black;
+    margin-top: 32px;
+    text-align: right;
+    font-style: italic;
+    padding-top: 8px;
+
+}
+
